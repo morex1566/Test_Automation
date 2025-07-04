@@ -26,4 +26,18 @@ Tesseract OCR을 사용하기 위해 Python이 필요합니다. <br/>
 <br/>
 
 Java와 Python이 설치되어있는지 cmd를 통해 확인합니다. <br/>
-<pre> <code> ```bash java --version python --version ``` </code> </pre>
+```
+java --version
+python --version
+```
+프로젝트에 사용된 pip은 다음과 같습니다.<br/>
+```
+pip install openpyxl
+pip install pytesseract
+pip install json
+pip install cv2
+```
+
+이제 CrossFire PH -> SikuliX 순으로 실행하고, 다운/클론한 코드를 실행하고자 하는 .sikuli 폴더에 추가하고 테스트를 진행합니다. <br/>
+
+## 라이센스
