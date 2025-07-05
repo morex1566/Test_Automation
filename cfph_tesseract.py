@@ -19,7 +19,7 @@ def extractText():
     # 2. 이진화
     # 3. 업스케일
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    _, binary_image = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    binary_image = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     postProcessedImg = cv2.resize(binary_image, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
 
     # 이미지 텍스트화
