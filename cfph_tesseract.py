@@ -24,8 +24,7 @@ def extractText():
 
     # 허용 문자 제한
     # 이미지 텍스트화
-    config = r'--oem 3 --psm 6 -c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.!?-_)( '
-    text = pytesseract.image_to_string(postProcessedImg, lang='eng', config=config)
+    text = pytesseract.image_to_string(postProcessedImg, lang='eng')
     
     print(json.dumps(text, ensure_ascii=False, indent=2))
 
