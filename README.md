@@ -38,7 +38,7 @@ pip install json
 pip install cv2
 ```
 
-이제 CrossFire PH -> SikuliX 순으로 실행하고, 다운/클론한 코드를 실행하고자 하는 .sikuli 폴더에 추가하고 테스트를 진행합니다. <br/> <br/>
+이제 CrossFire PH -> SikuliX 순으로 실행하고, 다운/클론한 코드를 실행하고자 하는 .sikuli 폴더에 추가하고 테스트를 진행합니다. <br/> <br/> <br/>
 
 
 ## 라이센스
