@@ -6,6 +6,8 @@ import pytesseract
 
 def extractText():
     # 명령줄 인자로 이미지 경로 받기
+    # 엑셀 파일 열기
+    # 안정화 코드
     imgPath = sys.argv[1]
 
     # 이미지 읽기

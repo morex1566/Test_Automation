@@ -44,6 +44,7 @@ regions.append(Region(1043,777,393,157))
 regions.append(Region(1444,772,389,163))
 
 #페이지 이동 위치
+#페이지 불러오기
 pageDown = Region(Region(1842,902,31,36))
 
 #이미지 캡처

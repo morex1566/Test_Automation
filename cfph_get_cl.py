@@ -4,6 +4,7 @@ import json
 
 def getChecklist(fileRoute):
     # 엑셀 파일 열기
+    # 안정화 코드
     workbook = openpyxl.load_workbook(fileRoute, data_only=True)
     worksheet = workbook.active
 

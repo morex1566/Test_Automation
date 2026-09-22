@@ -1,3 +1,4 @@
+# 숫자를 변환
 def parseNumber(text):
     try:
         return int(text.strip().replace(",", ""))
